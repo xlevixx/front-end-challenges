@@ -1,0 +1,152 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+@font-face {
+   font-family: outfit;
+   src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+   font-family: young-serif;
+   src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+:root {
+   --bg-color: hsl(30, 54%, 90%);
+   --bg-main-color: hsl(0, 0%, 100%);
+   --normal-padding: 1rem;
+   --normal-border-radius: .8rem;
+
+   --text-main-color: hsl(30, 10%, 34%);
+   --h2-color: hsl(14, 45%, 36%);
+
+   --primary-font: young-serif;
+   --secondary-font: outfit;
+}
+
+body {
+   padding: var(--normal-padding);
+   background-color: var(--bg-color);
+   padding: 5rem 0;
+   font-family: var(--secondary-font);
+}
+
+main {
+   margin: 0 auto;
+   width: 680px;
+   padding: 1.7rem;
+   background-color: var(--bg-main-color);
+   border-radius: var(--normal-border-radius);
+}
+
+.main-img img {
+   width: 100%;
+   border-radius: var(--normal-border-radius);
+}
+
+.main-text h1 {
+   margin: .7rem 0;
+   font-family: var(--primary-font);
+   font-weight: 400;
+}
+
+.main-text p {
+   color: var(--text-main-color);
+   font-weight: 400;
+}
+
+.main-preparation {
+   background-color: hsl(330, 100%, 98%);
+   border-radius: var(--normal-border-radius);
+   padding: 2rem;
+   margin: 1rem 0;
+}
+
+h3 {
+   color: hsl(332, 51%, 32%);
+   margin-bottom: .8rem;
+}
+
+h2 {
+   font-family: var(--primary-font);
+   font-weight: 400;
+   color: var(--h2-color);
+   margin-bottom: .8rem;
+}
+
+hr {
+   display: block;
+   margin-bottom: 1.5rem;
+   color: hsl(30, 18%, 87%);
+}
+
+.main-preparation ul li {
+   padding: .4rem;
+}
+
+.main-preparation ul {
+   padding-left: 1.4rem;
+   color: hsl(30, 10%, 34%);
+   font-weight: 400;
+}
+
+.main-preparation ul span {
+   font-weight: 700;
+   color: hsl(24, 5%, 18%);
+}
+
+.main-ingredients ul {
+   padding: 0 1.5rem 1.3rem;
+}
+
+.main-ingredients li {
+   padding: .5rem 0;
+   color: hsl(30, 10%, 34%);
+   font-weight: 400;
+}
+
+.main-intructions ul {
+   padding: 0 1.5rem 1.3rem;
+}
+
+.main-intructions li {
+   padding: .5rem 0;
+   color: hsl(30, 10%, 34%);
+   font-weight: 400;
+}
+
+.main-intructions li span {
+   color: hsl(24, 5%, 18%);
+   font-weight: 700;
+}
+
+.main-table p {
+   margin-bottom: .5rem;
+   color: hsl(30, 10%, 34%);
+   font-weight: 400;
+}
+
+.main-table table {
+   width: 100%;
+   margin-top: .8rem;
+   padding: 1rem;
+}
+
+.main-table th, td {
+   border-bottom: .5px solid hsl(30, 10%, 34%);
+}
+
+.main-table table th {
+   padding: .5rem;
+   text-align: start;
+   color: hsl(30, 10%, 34%);
+}
+
+.main-table table td {
+   text-align: start;
+   font-weight: 700;
+   color: hsl(14, 45%, 36%);
+}
