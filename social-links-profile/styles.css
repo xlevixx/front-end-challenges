@@ -1,0 +1,81 @@
+@font-face {
+   font-family: inter;
+   src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-size: 14px;
+   background-color: hsl(0, 0%, 8%);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   font-family: inter, sans-serif;
+   padding: 1rem;
+}
+
+.card {
+   background-color: hsl(0, 0%, 12%);
+   padding: 1rem;
+   border-radius: .8rem;
+   color: hsl(0, 0%, 100%);
+   width: 390px;
+}
+
+.img-card img {
+   display: block;
+   border-radius: 50%;
+   margin: 1.5rem auto;
+   width: 80px;
+}
+
+.description-card {
+   text-align: center;
+   margin: 1.5rem 0;
+}
+
+.description-card h2 {
+   font-weight: 700;
+}
+
+.description-card .city {
+   color: hsl(75, 94%, 57%);
+   margin: .4rem 0 1.5rem;
+   font-weight: 600;
+}
+
+.list-card {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.list-card li a {
+   color: hsl(0, 0%, 100%);
+   text-decoration: none;
+   font-weight: 700;
+}
+
+.list-card li {
+   list-style: none;
+   width: 90%;
+   background-color: hsl(0, 0%, 20%);
+   border-radius: .5rem;
+   padding: 1rem;
+   text-align: center;
+   display: block;
+   margin-bottom: .9rem;
+   cursor: pointer;
+   transition: all ease .4s;
+}
+
+.list-card li:hover {
+   background-color: hsl(75, 94%, 57%);
+}
