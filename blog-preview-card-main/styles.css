@@ -1,0 +1,79 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: hsl(47, 88%, 63%);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   font-family: "Figtree", sans-serif;
+   padding: 1rem;
+}
+
+.card {
+   background-color: hsl(0, 0%, 100%);
+   padding: 1.2rem;
+   width: 360px;
+   border-radius: 1rem;
+   border: 2px solid hsl(0, 0%, 7%);
+   box-shadow: 7px 8px;
+}
+
+.card-img img {
+   width: 100%;
+   border-radius: 1rem;
+}
+
+.card-button {
+   margin: .8rem 0;
+}
+
+.card-button button{
+   padding: .5rem;
+   background-color: hsl(47, 88%, 63%);
+   font-weight: 800;
+   border-radius: .3rem;
+   border: none;
+   cursor: pointer;
+}
+
+.card-text span {
+   color: hsl(0, 0%, 7%);
+
+}
+
+.card-text h2 {
+   margin: .8rem 0;
+   font-weight: 800;
+   transition: all ease .3s;
+}
+
+.card-text h2:hover {
+   color: hsl(47, 88%, 63%);
+   cursor: pointer;
+}
+
+.card-text p {
+   color: hsl(0, 0%, 42%);
+   font-weight: 500;
+}
+
+.card-footer {
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+   margin-top: 1rem;
+}
+
+.card-footer img {
+   width: 40px;
+   height: 40px;
+}
+
+.card-footer p {
+   font-weight: 800;
+}
